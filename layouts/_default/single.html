@@ -1,0 +1,29 @@
+{{ define "main" }}
+<article class="single-post h-entry">
+  <div class="post-date">
+    <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+      {{ .Date.Format "January 2, 2006" }}
+    </time>
+  </div>
+  {{ with .Title }}
+  <h1 class="post-title p-name">{{ . }}</h1>
+  {{ end }}
+  <div class="post-content e-content">
+    {{ .Content }}
+  </div>
+  {{ if .Site.Params.include_conversation }}
+  <div id="conversation">
+    <a href="https://micro.blog/conversation.js?url={{ .Permalink }}" id="conversation-link">Comments</a>
+  </div>
+  <script>
+    document.getElementById("conversation-link").addEventListener("click", function(e) {
+      e.preventDefault();
+      var s = document.createElement("script");
+      s.src = "https://micro.blog/conversation.js?url=" + encodeURIComponent("{{ .Permalink }}");
+      document.getElementById("conversation").appendChild(s);
+      this.style.display = "none";
+    });
+  </script>
+  {{ end }}
+</article>
+{{ end }}

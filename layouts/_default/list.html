@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1 class="post-title">{{ .Title }}</h1>
+<ul class="archive-list">
+  {{ range .Pages }}
+  <li>
+    <span class="archive-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <span class="archive-title">
+      <a href="{{ .Permalink }}">{{ if .Title }}{{ .Title }}{{ else }}{{ dateFormat "3:04 PM" .Date }}{{ end }}</a>
+    </span>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
