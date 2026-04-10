@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{- define "main" -}}
 <div class="h-feed">
   {{ $posts := where .Site.RegularPages "Type" "post" }}
   {{ $paginator := .Paginate $posts }}
@@ -23,4 +23,4 @@
   {{ end }}
   {{ partial "pagination.html" . }}
 </div>
-{{ end }}
+{{- end -}}

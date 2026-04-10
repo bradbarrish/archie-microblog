@@ -1,12 +1,12 @@
-{{ define "main" }}
+{{- define "main" -}}
 <article class="single-post h-entry">
   <div class="post-date">
     <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
       {{ .Date.Format "January 2, 2006" }}
     </time>
   </div>
-  {{ with .Title }}
-  <h1 class="post-title p-name">{{ . }}</h1>
+  {{ if .Title }}
+  <h1 class="post-title p-name">{{ .Title }}</h1>
   {{ end }}
   <div class="post-content e-content">
     {{ .Content }}
@@ -26,4 +26,4 @@
   </script>
   {{ end }}
 </article>
-{{ end }}
+{{- end -}}
