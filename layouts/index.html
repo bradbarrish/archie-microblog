@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="h-feed">
-  {{ $paginator := .Paginate .Site.RegularPages }}
+  {{ $posts := where .Site.RegularPages "Type" "post" }}
+  {{ $paginator := .Paginate $posts }}
   {{ range $paginator.Pages }}
   <article class="post h-entry">
     <div class="post-date">
