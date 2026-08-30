@@ -1,0 +1,14 @@
+{{- define "main" -}}
+<article class="single-post now-page h-entry">
+  <h1 class="post-title p-name">{{ .Title }}</h1>
+  <div class="post-content e-content">
+    {{ .Content }}
+  </div>
+  <p class="now-updated">
+    Last updated
+    <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02" }}">
+      {{ .Lastmod.Format "January 2, 2006" }}
+    </time>
+  </p>
+</article>
+{{- end -}}

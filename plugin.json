@@ -1,6 +1,23 @@
 {
   "title": "Archie for Micro.blog",
-  "description": "A minimal theme inspired by the Archie Hugo theme. JetBrains Mono, dark/light toggle, clean layout.",
-  "version": "1.0.0",
-  "type": "theme"
+  "description": "A minimal theme inspired by the Archie Hugo theme. JetBrains Mono, dark/light toggle, blogroll, and a clean layout.",
+  "version": "1.1.0",
+  "type": "theme",
+  "fields": [
+    {
+      "field": "params.blogroll_title",
+      "label": "Blogroll title",
+      "placeholder": "Blogroll"
+    },
+    {
+      "field": "params.blogroll_about",
+      "label": "Blogroll introduction",
+      "placeholder": "People and sites I return to."
+    },
+    {
+      "field": "params.blogroll_limit",
+      "label": "Number of blogroll links",
+      "type": "integer"
+    }
+  ]
 }

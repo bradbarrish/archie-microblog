@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><title>Places to go. People to see.</title></head>
+  <body>
+    <outline text="Rachel Kwon" title="Rachel Kwon" type="link" htmlUrl="https://kwon.nyc/" />
+    <outline text="Ann Friedman" title="Ann Friedman" type="link" htmlUrl="https://www.annfriedman.com/" />
+    <outline text="Craig Mod" title="Craig Mod" type="link" htmlUrl="https://craigmod.com/" />
+    <outline text="A Whole Lotta Nothing" title="A Whole Lotta Nothing" type="link" htmlUrl="https://a.wholelottanothing.org/" />
+    <outline text="Marginal Revolution" title="Marginal Revolution" type="link" htmlUrl="https://marginalrevolution.com/" />
+    <outline text="Winnie Lim" title="Winnie Lim" type="link" htmlUrl="https://winnielim.org/" />
+    <outline text="Emily Adel" title="Emily Adel" type="link" htmlUrl="https://emilyadel.lol/" />
+    <outline text="Simon Willison" title="Simon Willison" type="link" htmlUrl="https://simonwillison.net/" />
+    <outline text="Laura Olin" title="Laura Olin" type="link" htmlUrl="https://www.lauraolin.com/" />
+    <outline text="Robin Sloan" title="Robin Sloan" type="link" htmlUrl="https://www.robinsloan.com/" />
+    <outline text="Kottke" title="Kottke" type="link" htmlUrl="https://kottke.org" />
+    <outline text="Waxy" title="Waxy" type="link" htmlUrl="https://waxy.org/" />
+    <outline text="Mark Ghuneim" title="Mark Ghuneim" type="link" htmlUrl="https://ghuneim.us/" />
+    <outline text="The Marginalian" title="The Marginalian" type="link" htmlUrl="https://www.themarginalian.org/" />
+    <outline text="Clone" title="Clone" type="link" htmlUrl="https://clone.fyi/" />
+    <outline text="Derek Sivers" title="Derek Sivers" type="link" htmlUrl="https://sive.rs/" />
+    <outline text="Drew Breunig" title="Drew Breunig" type="link" htmlUrl="https://www.dbreunig.com" />
+    <outline text="elle" title="elle" type="link" htmlUrl="https://ellesho.me" />
+    <outline text="Ftrain" title="Ftrain" type="link" htmlUrl="https://ftrain.com/" />
+    <outline text="Interconnected" title="Interconnected" type="link" htmlUrl="https://interconnected.org" />
+    <outline text="Sippy" title="Sippy" type="link" htmlUrl="https://sippey.com" />
+    <outline text="Don’t Worry About The Vase" title="Don’t Worry About The Vase" type="link" htmlUrl="https://thezvi.wordpress.com/" />
+    <outline text="Rubin Recommends" title="Rubin Recommends" type="link" htmlUrl="https://rubinrecommends.com" />
+    <outline text="Seth Godin" title="Seth Godin" type="link" htmlUrl="https://seths.blog/" />
+  </body>
+</opml>

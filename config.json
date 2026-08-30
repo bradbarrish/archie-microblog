@@ -1,6 +1,8 @@
 {
   "params": {
-    "description": ""
+    "description": "",
+    "blogroll_title": "Places to go. People to see.",
+    "blogroll_limit": 24
   },
   "paginate": 25
 }

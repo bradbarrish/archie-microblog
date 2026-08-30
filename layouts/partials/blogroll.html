@@ -1,0 +1,26 @@
+{{- with .Site.Data.blogroll -}}
+  <aside class="blogroll" aria-labelledby="blogroll-title">
+    <div class="blogroll-heading">
+      <h2 id="blogroll-title">{{ $.Site.Params.blogroll_title | default "Blogroll" }}</h2>
+      {{ with $.Site.Params.blogroll_about }}
+      <p>{{ . }}</p>
+      {{ end }}
+    </div>
+    <ul>
+      {{ range first ($.Site.Params.blogroll_limit | default 14) . }}
+      <li>
+        <a class="blogroll-site" href="{{ .url }}">
+          <span class="blogroll-name">{{ .name }}</span>
+        </a>
+        {{ with .about }}
+        <div class="blogroll-about">{{ . | markdownify }}</div>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    <div class="blogroll-formats">
+      <a href="/.well-known/recommendations.opml">OPML</a>
+      <a href="/.well-known/recommendations.json">JSON</a>
+    </div>
+  </aside>
+{{- end -}}
