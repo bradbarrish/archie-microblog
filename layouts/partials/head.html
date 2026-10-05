@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} — {{ end }}{{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  <link rel="stylesheet" href="/css/main.css?v=blogroll-plain-list">
+  <link rel="stylesheet" href="/css/main.css?v=responsive-post-images">
   {{ if templates.Exists "partials/microblog_head.html" }}
   {{ partial "microblog_head.html" . }}
   {{ end }}
