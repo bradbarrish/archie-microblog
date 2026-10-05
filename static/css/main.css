@@ -488,6 +488,10 @@ th {
 
 /* --- Single Post Page --- */
 
+body:not(.home-page) .h-entry > .categories {
+  display: none;
+}
+
 .single-post {
   padding-bottom: 3rem;
 }
